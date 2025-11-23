@@ -3,6 +3,22 @@ margin: 0;
 font-family: arial;
 box-sizing: border-box;
 }
+img {
+   max-width: 100%;
+   height: auto;
+}
+@media (max-width: 600px) {
+  .text-box {
+     font-size: 14px;
+  }
+  .button {
+     width: 100%;
+  }
+  .image {
+     width: 100%;
+     height: auto;
+  }
+}
 .navbar {
     background-color: #0F1111;
     width: 100%;
@@ -369,3 +385,4 @@ height: 150px;
  
 
  
+
